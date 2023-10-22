@@ -45,6 +45,7 @@ nav ul li a {
 
   
 .section {
+    width: 100%;
     min-height: 50vh;
     display: flex;
     justify-content: center;
