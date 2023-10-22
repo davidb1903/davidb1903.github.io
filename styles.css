@@ -1,0 +1,61 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #04041D;
+    color: #BC96F2;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5C30A1;
+    color: #ffffff;
+    text-align: center;
+}
+
+.project {
+    margin: 20px 0;
+}
+
+/* Estilos de las demás secciones y proyectos */
+
+#about {
+    background-color: #63C2B0;
+}
+
+#contact {
+    background-color: #5C30A1;
+}
+
+#projects {
+    background-color: #412A79;
+}
